@@ -1,0 +1,149 @@
+html{
+    font-family: "poppins";
+    font-size: 16px;
+    color: white;
+    background-color:#15100D ;
+}
+header{
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7) ),
+ url(../images/5.jpg);
+ background-position: center;
+ background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 130px;
+    margin-top: 20px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+.main-nav  ul li{
+    margin-left: 30px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: rgb(47, 38, 20);
+}
+.hero{
+
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px rgb(56, 45, 23);
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(48, 26, 26);
+}
+.btn:hover{
+  color: white;
+  background-color: rgb(27, 23, 16);
+
+}
+#coffee{
+    background-color:#15100D;
+}
+#coffee img{
+    width: 100%;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 70px;
+} 
+#menu{
+    background-color:#15100D;
+}
+h3{
+    padding-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    text-align: center;
+}
+#menu img{
+padding-bottom: 30px;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #15100D;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+    margin-left: 30px;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+.footer-nav li a:hover{
+    color: #3c2f27;
+}
+
+.social-nav{
+    list-style: none;
+    display: flex;
+}
+.social-nav li{
+    margin-left: 30px; 
+  
+}
+.social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+.social-nav li a:hover{
+   
+    color: #3c2f27;
+}
